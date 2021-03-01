@@ -18,13 +18,13 @@ Route::get('about', 'PageController@about')->name('about');
 Route::get('contacts', 'PageController@contacts')->name('contacts');
 
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 // Admin Route
 
-Route::middleware('auth')->namespace('Admin')->prefix('admin')->name('admin')->group(function () {
+Route::middleware('auth')->namespace('Admin')->prefix('admin')->name('admin.')->group(function () {
 
 Route::get('/', 'HomeController@index')->name('home');
-Route::resource('posts', 'PostController@index');
+Route::resource('posts', 'PostController');
 
 }); 

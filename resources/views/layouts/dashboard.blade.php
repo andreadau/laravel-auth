@@ -18,6 +18,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+     integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
     <div id="app">
@@ -74,10 +78,10 @@
             <div class="row">
                 <div class="col-xs-12 col-md-3 col-lg-3">
                 <ul class="list-unstyled py-2">
-                    <li><a href="">Dashboard</a></li>
-                    <li><a href="">Posts</a></li>
-                    <li><a href="">Categories</a></li>
-                    <li><a href="">Tags</a></li>
+                    <li><a href="/admin">Dashboard</a></li>
+                    <li><a href="/admin/posts">Posts</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Tags</a></li>
                 </ul>
                 </div>
                 <main class="col-xs-12 col-md-9 col-lg-9">
