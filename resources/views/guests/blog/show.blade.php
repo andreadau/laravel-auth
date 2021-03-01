@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-
+<h1>Post</h1>
 <table class="table">
     <thead>
         <tr>
@@ -10,12 +10,10 @@
         </tr>
     </thead>
     <tbody>
-        @foreach($posts as $post)
         <tr>
             <td scope="row">{{ $post->title }}</td>
             <td>{{ $post->description }}</td>
         </tr>
-        @endforeach
     </tbody>
-
+</table>
 @endsection

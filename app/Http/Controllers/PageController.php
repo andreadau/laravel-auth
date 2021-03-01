@@ -35,14 +35,4 @@ class PageController extends Controller
     {
         return view('guests.contacts');
     }
-
-    /**
-     * Show post page
-     *  @return view
-     */
-    public function blog(Post $post)
-    {
-        $posts = $post->all();
-        return view('guests.blog', compact("posts"));
-    }
 }
