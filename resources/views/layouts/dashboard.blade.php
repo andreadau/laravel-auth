@@ -73,7 +73,7 @@
         <div class="container py-4">
             <div class="row">
                 <div class="col-xs-12 col-md-3 col-lg-3">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled py-2">
                     <li><a href="">Dashboard</a></li>
                     <li><a href="">Posts</a></li>
                     <li><a href="">Categories</a></li>
